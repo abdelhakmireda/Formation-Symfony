@@ -126,7 +126,7 @@ Symfony suit le modèle **MVC** pour garantir une **organisation propre** du cod
 
 ---
 
-### 6 Grandes entreprises utilisant Symfony 🌟
+### 10 Grandes entreprises utilisant Symfony 🌟
 
 #### 1. **Trivago** 🌍
 - **Nombre d'utilisateurs** : Plus de **50 millions** de visiteurs mensuels.
