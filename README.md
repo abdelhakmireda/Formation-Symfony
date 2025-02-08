@@ -1,6 +1,6 @@
 # 🚀 Formation Symfony - De zéro à projet final 🎓  
 
-Apprenez Symfony à travers des supports interactifs, des QCM et un projet final avec EasyAdmin. 📚🔥  
+Apprenez Symfony à travers des supports interactifs, des TP et un projet final avec EasyAdmin. 📚🔥  
 
 ## 📖 Contenu du dépôt  
 📂 **docs/** → Supports de cours détaillés  
@@ -26,8 +26,8 @@ Cette formation est dédiée aux **débutants** souhaitant découvrir Symfony et
 2. **Suivre les supports dans `docs/`**  
    Consultez les documents du dossier `docs/` pour suivre chaque étape de la formation.  
 
-3. **Tester ses connaissances avec les QCM dans `QCM/`**  
-   Après chaque séance, un test sous forme de QCM est disponible pour évaluer votre compréhension.  
+3. **Tester ses connaissances avec les TP dans `TP/`**  
+   Après chaque séance, un test sous forme de TP est disponible pour évaluer votre compréhension.  
 
 4. **Réaliser le projet final avec Symfony**  
    Appliquez vos connaissances en réalisant un projet Symfony complet disponible dans `projet-symfony/`.  
