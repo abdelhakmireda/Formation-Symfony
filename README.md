@@ -4,7 +4,7 @@ Apprenez Symfony à travers des supports interactifs, des QCM et un projet final
 
 ## 📖 Contenu du dépôt  
 📂 **docs/** → Supports de cours détaillés  
-📂 **QCM/** → Tests pour évaluer vos connaissances  
+📂 **TP/** → Tests pour évaluer vos connaissances  
 📂 **projet-symfony/** → Projet final avec Symfony  
 
 ## 📌 Plan de la formation  
