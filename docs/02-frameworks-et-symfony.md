@@ -126,15 +126,6 @@ Symfony suit le modèle **MVC** pour garantir une **organisation propre** du cod
 
 ---
 
-### Conclusion 🎉
-
-Symfony est un framework **puissant** et **flexible** qui permet de créer des applications web modernes, performantes et sécurisées. Avec des outils comme **Symfony UX** et **API Platform**, il facilite la création d'interfaces réactives et de services web efficaces. La **documentation** est complète et simple à suivre, et le modèle **MVC** assure une **organisation claire** du code. Si tu cherches à développer des applications robustes et évolutives, Symfony est un excellent choix.
-
----
-Voici une version concise avec les 6 plus grandes entreprises utilisant Symfony, leur nombre d'utilisateurs et les raisons pour lesquelles elles l'ont choisi :
-
----
-
 ### 6 Grandes entreprises utilisant Symfony 🌟
 
 #### 1. **Trivago** 🌍
@@ -172,3 +163,8 @@ Voici une version concise avec les 6 plus grandes entreprises utilisant Symfony,
 ---
 
 Cela montre que Symfony est un choix privilégié pour des entreprises traitant d'énormes volumes d'utilisateurs et ayant besoin d'un **framework fiable, rapide et sécurisé** pour leurs projets complexes.
+
+### Conclusion 🎉
+
+Symfony est un framework **puissant** et **flexible** qui permet de créer des applications web modernes, performantes et sécurisées. Avec des outils comme **Symfony UX** et **API Platform**, il facilite la création d'interfaces réactives et de services web efficaces. La **documentation** est complète et simple à suivre, et le modèle **MVC** assure une **organisation claire** du code. Si tu cherches à développer des applications robustes et évolutives, Symfony est un excellent choix.
+
