@@ -23,7 +23,7 @@ Cette formation est dédiée aux **débutants** souhaitant découvrir Symfony et
    git clone https://github.com/tonpseudo/symfony-formation.git
    cd symfony-formation
    ```
-   2. **Suivre les supports dans `docs/`**  
+2. **Suivre les supports dans `docs/`**  
    Consultez les documents du dossier `docs/` pour suivre chaque étape de la formation.  
 
 3. **Tester ses connaissances avec les QCM dans `QCM/`**  
