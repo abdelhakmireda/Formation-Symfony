@@ -14,51 +14,28 @@ Apprenez Symfony à travers des supports interactifs, des QCM et un projet final
 - **Notions avancées (Doctrine, Sécurité, Twig, etc.)**  
 - **Projet final avec EasyAdmin ou un CRUD Symfony**  
 
-## 🎯 Objectifs  
-✅ Comprendre et utiliser Symfony efficacement  
-✅ Créer un projet Symfony fonctionnel  
-✅ Gérer une base de données avec Doctrine  
-✅ Mettre en place une interface d’administration avec EasyAdmin  
-
-## 🛠 Technologies utilisées  
-- PHP 8.1  
-- Symfony 6.4  
-- MySQL  
-- Doctrine ORM  
-- Twig  
-- EasyAdmin  
+## 🎯 Objectif  
+Cette formation est dédiée aux **débutants** souhaitant découvrir Symfony et apprendre à développer une application complète en suivant une approche progressive et interactive.  
 
 ## 🚀 Installation et utilisation  
 1. **Cloner le dépôt**  
    ```bash
    git clone https://github.com/tonpseudo/symfony-formation.git
    cd symfony-formation
-   2. **Explorer les supports dans `docs/`**  
-   Consultez les fichiers dans le dossier `docs/` pour suivre les différentes étapes de la formation. Chaque séance contient des explications détaillées et des exemples pratiques.  
+   ```
+   2. **Suivre les supports dans `docs/`**  
+   Consultez les documents du dossier `docs/` pour suivre chaque étape de la formation.  
 
-3. **Tester vos connaissances avec les QCM dans `QCM/`**  
-   Après chaque séance, vous trouverez un fichier QCM pour évaluer votre compréhension. Les réponses sont fournies à la fin de chaque fichier pour vous aider à progresser.  
+3. **Tester ses connaissances avec les QCM dans `QCM/`**  
+   Après chaque séance, un test sous forme de QCM est disponible pour évaluer votre compréhension.  
 
-4. **Réaliser le projet final**  
-   À la fin de la formation, un projet Symfony complet est proposé dans le dossier `projet-symfony/`. Suivez les instructions fournies pour le mettre en place et le personnaliser.  
+4. **Réaliser le projet final avec Symfony**  
+   Appliquez vos connaissances en réalisant un projet Symfony complet disponible dans `projet-symfony/`.  
 
 ---
 
-## 🛠 Configuration du projet Symfony  
-Si vous souhaitez exécuter le projet final sur votre machine, suivez ces étapes :  
+## 🏁 Conclusion  
+À travers cette formation, vous aurez acquis les bases de Symfony, appris à manipuler ses principales fonctionnalités et mis en pratique vos connaissances avec un projet concret.  
 
-### 1️⃣ Prérequis  
-Avant de commencer, assurez-vous d'avoir installé :  
-- PHP 8.1 ou supérieur  
-- Composer  
-- Symfony CLI  
-- MySQL  
-- Un serveur web (Symfony CLI, Apache, Nginx)  
-
-### 2️⃣ Installation du projet  
-Exécutez les commandes suivantes :  
-```bash
-cd projet-symfony
-composer install
-symfony server:start
+🚀 **Bonne découverte de Symfony et bon apprentissage !** 🎓🔥  
 
