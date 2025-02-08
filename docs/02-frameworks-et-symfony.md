@@ -76,6 +76,7 @@ Idéal pour créer des **applications modernes** avec des **performances élevé
 **API Platform** est un framework basé sur Symfony, conçu pour créer rapidement des **API RESTful** et **GraphQL**. Il te permet de construire des services web **robustes** et **performants** en un temps record.
 
 - **Automatisation** de la documentation d'API avec **Swagger**.
+-  **Swagger** : API Platform génère automatiquement la documentation de ton API avec Swagger, ce qui permet de visualiser les points de terminaison, les paramètres et les réponses possibles pour chaque API. Cela facilite le travail de développement et permet aux utilisateurs de tester facilement les API.
 - **Gestion simplifiée** des **requêtes** et des **versions d'API**.
 
 Il est parfait pour créer des **services web** évolutifs et **scalables**, avec une **intégration facile** des dernières normes API.
