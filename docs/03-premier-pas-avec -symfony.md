@@ -1,12 +1,11 @@
 ## 🚀 **Premiers Pas avec Symfony 6.4 LTS** 🏁
 
----
 
 ### **1. Introduction à Symfony 6.4 🌍**
 
 Symfony est un **framework PHP** puissant et flexible, parfait pour construire des applications web modernes. Ce tutoriel va vous guider pas à pas pour démarrer avec **Symfony 6.4**.
 
----
+
 
 ### **2. Installation et Configuration 🛠️**
 
@@ -34,8 +33,6 @@ Pour créer un projet Symfony 6.4 avec **Symfony CLI**, exécutez :
 symfony new myproject --version="6.4.*" --webapp
 ```
 
----
-
 ### **3. Structure du Projet Symfony 📁**
 
 Voici à quoi ressemble la structure d'un projet Symfony par défaut :
@@ -49,8 +46,6 @@ myproject/
 ├── var/                     # Cache et logs
 └── public/                  # Fichiers accessibles au public (CSS, JS, images)
 ```
-
----
 
 ### **4. MVC dans Symfony 6.4 🏛️**
 
@@ -71,7 +66,6 @@ Voici comment le **MVC** fonctionne dans Symfony :
 3. Le **Modèle** interagit avec la base de données via **Doctrine ORM** pour fournir les informations demandées.
 4. Le **Contrôleur** passe ensuite ces données à la **Vue** (Twig), qui les affiche à l'utilisateur sur le navigateur.
 
----
 
 ### **5. Composer : Le Gestionnaire de Dépendances 📦**
 
@@ -92,8 +86,6 @@ Et pour ajouter de nouvelles dépendances :
 ```bash
 composer require symfony/orm-pack
 ```
-
----
 
 ### **6. Utilisation de Twig 🎨**
 
@@ -129,7 +121,6 @@ composer require symfony/orm-pack
 </ul>
 ```
 
----
 
 ### **7. Doctrine et Migrations 🔧**
 
@@ -151,8 +142,6 @@ Et pour appliquer la migration à la base de données :
 php bin/console doctrine:migrations:migrate
 ```
 
----
-
 ### **8. Commandes pour la Gestion de la Base de Données 📊**
 
 #### **8.1 Créer la Base de Données 🏗️**
@@ -163,8 +152,6 @@ Avant de commencer à travailler avec Doctrine, vous devez créer la base de don
 php bin/console doctrine:database:create
 ```
 
----
-
 ### **9. Conclusion 🎯**
 
 Vous êtes maintenant prêt à commencer votre aventure avec Symfony 6.4 ! Voici un récapitulatif :
@@ -173,7 +160,6 @@ Vous êtes maintenant prêt à commencer votre aventure avec Symfony 6.4 ! Voici
 - Vous avez compris le modèle **MVC** et comment Symfony gère la logique métier, les vues et les données.
 - Vous avez exploré **Composer**, **Twig**, et **Doctrine** pour créer des applications web efficaces et évolutives.
 
----
 
 ### **Bon Développement avec Symfony! 🌟**
 
