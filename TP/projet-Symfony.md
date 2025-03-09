@@ -247,7 +247,34 @@ class': 'field', 'placeholder': 'Entrez votre nouveau mot de passe'}}) }}
 </main>
 {% endblock %}
 ```
+## Voici la structure des deux tables correspondantes à tes entités Symfony :
 
+### Table `etudiqnt`
+| Nom du champ     | Type                  | Contraintes                        |
+|------------------|----------------------|------------------------------------|
+| `id`            | `INT`                 | `PRIMARY KEY`, `AUTO_INCREMENT`   |
+| `email`         | `VARCHAR(180)`        | `UNIQUE`, `NOT NULL`              |
+| `roles`         | `JSON`                | `NOT NULL`                        |
+| `password`      | `VARCHAR(255)`        | `NOT NULL`                        |
+| `nom`           | `VARCHAR(255)`        | `NOT NULL`                        |
+| `prenom`        | `VARCHAR(255)`        | `NOT NULL`                        |
+| `date_naissance`| `DATETIME`            | `NOT NULL`                        |
+| `created_at`    | `DATETIME`            | `NOT NULL`                        |
+| `cour_id`       | `INT`                 | `FOREIGN KEY` vers `cour(id)`     |
+
+### Table `cour`
+| Nom du champ  | Type                 | Contraintes                        |
+|--------------|---------------------|------------------------------------|
+| `id`        | `INT`                | `PRIMARY KEY`, `AUTO_INCREMENT`   |
+| `nom`       | `VARCHAR(255)`       | `NOT NULL`                        |
+| `description`| `VARCHAR(255)`       | `NULLABLE`                        |
+| `created_at` | `DATETIME`           | `NOT NULL`                        |
+
+#### Relations :
+- **Un étudiant (`etudiqnt`) appartient à un seul cours (`cour`).**
+- **Un cours (`cour`) peut avoir plusieurs étudiants (`etudiqnt`).**
+
+Cette structure reflète correctement la relation **ManyToOne** entre `Etudiqnt` et `Cour`.
 ---
 
 ## 📦 Conclusion
