@@ -232,9 +232,9 @@ Les étapes pour la configuration de Docker sont déjà intégrées dans l'envir
             </div>
             <div class="body flex">
                 <div class="form-group">
-                    {{ form_label(resetForm.plainPassword, 'Nouveau mot de passe', {'label_attr': {'class': 'label'}}) }}
+                    {{ form_label(resetForm.password, 'Nouveau mot de passe', {'label_attr': {'class': 'label'}}) }}
                     <div class="input-icon">
-                        {{ form_widget(resetForm.plainPassword, {'attr': {'
+                        {{ form_widget(resetForm.password, {'attr': {'
 
 class': 'field', 'placeholder': 'Entrez votre nouveau mot de passe'}}) }}
                     </div>
@@ -246,6 +246,82 @@ class': 'field', 'placeholder': 'Entrez votre nouveau mot de passe'}}) }}
     </section>
 </main>
 {% endblock %}
+```
+## page new and edit 
+```
+{% extends 'base.html.twig' %}
+
+{% block title %}S'enregistrer
+{% endblock %}
+
+{% block body %}
+	<main class="login-page">
+		<section class="formulaire">
+			<div class="header">
+				<div class="title-login">S'enregistrer</div>
+			</div>
+			{{ form_start(form) }}
+			{{ form_errors(form) }}
+
+			<div class="form-row">
+				<div class="form-group">
+					{{ form_label(form.nom, 'Nom', {'label_attr': {'class': 'label'}}) }}
+					{{ form_widget(form.nom, {'attr': {'class': 'input-icon', 'placeholder': 'Entrez votre nom'}}) }}
+				</div>
+				<div class="form-group">
+					{{ form_label(form.prenom, 'Prénom', {'label_attr': {'class': 'label'}}) }}
+					{{ form_widget(form.prenom, {'attr': {'class': 'input-icon', 'placeholder': 'Entrez votre prénom'}}) }}
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-group">
+					{{ form_label(form.email, 'Email', {'label_attr': {'class': 'label'}}) }}
+					{{ form_widget(form.email, {'attr': {'class': 'input-icon', 'placeholder': 'Entrez votre email'}}) }}
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group">
+					{{ form_label(form.roles, 'Email', {'label_attr': {'class': 'label'}}) }}
+					{{ form_widget(form.roles, {'attr': {'class': 'input-icon', 'placeholder': 'Entrez votre role'}}) }}
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group">
+					{{ form_label(form.password, 'Mot de passe', {'label_attr': {'class': 'label'}}) }}
+					{{ form_widget(form.password, {'attr': {'class': 'input-icon', 'placeholder': 'Entrez votre mot de passe'}}) }}
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group">
+					{{ form_label(form.created_at, 'Mot de passe', {'label_attr': {'class': 'label'}}) }}
+					{{ form_widget(form.created_at, {'attr': {'class': 'input-icon', 'placeholder': 'Entrez votre mot de passe'}}) }}
+				</div>
+				<div class="form-group">
+					{{ form_label(form.date_naissance, 'Mot de passe', {'label_attr': {'class': 'label'}}) }}
+					{{ form_widget(form.date_naissance, {'attr': {'class': 'input-icon', 'placeholder': 'Entrez votre mot de passe'}}) }}
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group">
+					{{ form_label(form.cour, 'Mot de passe', {'label_attr': {'class': 'label'}}) }}
+					{{ form_widget(form.cour, {'attr': {'class': 'input-icon', 'placeholder': 'Entrez votre mot de passe'}}) }}
+				</div>
+			</div>
+
+			<button type="submit" class="submit-btn">S'enregistrer</button>
+
+			<div class="signin-login-switch-container">
+				<span class="signin-login-switch-label">Vous avez déjà un compte ?</span>
+				<a href="{{ path('app_login') }}" class="link-login">Se Connecter</a>
+			</div>
+
+			{{ form_end(form) }}
+		</section>
+	</main>
+{% endblock %}
+
+
 ```
 ## Voici la structure des deux tables correspondantes à tes entités Symfony :
 
