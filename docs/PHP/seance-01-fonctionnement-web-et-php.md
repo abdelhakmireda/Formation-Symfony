@@ -13,10 +13,15 @@
 À la fin de cette séance, l’étudiant sera capable de :
 
 ✔ comprendre comment fonctionne **le Web**
+
 ✔ comprendre l’architecture **Client / Serveur**
+
 ✔ comprendre le rôle du **serveur Web**
+
 ✔ comprendre le rôle du **langage PHP**
+
 ✔ écrire un **premier script PHP**
+
 ✔ utiliser **variables, conditions et boucles**
 
 Cette séance pose **les bases nécessaires avant d’apprendre la Programmation Orientée Objet et MVC (Symfony / Laravel)**.
@@ -143,7 +148,7 @@ $
 ```php
 <?php
 
-$nom = "Karim";
+$nom = "Reda";
 $age = 22;
 
 echo $nom;
@@ -154,7 +159,7 @@ echo $nom;
 Résultat :
 
 ```
-Karim
+Reda
 ```
 
 ---
@@ -589,18 +594,6 @@ Afficher les éléments avec **foreach**.
 
 4️⃣ Pourquoi utilise-t-on **foreach avec les tableaux** ?
 
----
-
-# 📊 Barème proposé
-
-| Critère    | Points |
-| ---------- | ------ |
-| Script PHP | 5      |
-| Variables  | 5      |
-| Conditions | 5      |
-| Boucles    | 5      |
-| Analyse    | 5      |
-| **Total**  | **25** |
 
 ---
 
